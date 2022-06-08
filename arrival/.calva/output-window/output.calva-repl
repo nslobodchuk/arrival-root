@@ -1,0 +1,523 @@
+; This is the Calva evaluation results output window.
+; TIPS: The keyboard shortcut `ctrl+alt+o o` shows and focuses this window
+;   when connected to a REPL session.
+; Please see https://calva.io/output/ for more info.
+; Happy coding! ♥️
+
+; Connecting ...
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉arrival.core꞉>  ; Use `alt+enter` to evaluate
+nil
+clj꞉arrival.core꞉> 
+#'arrival.core/client
+clj꞉arrival.core꞉> 
+["solar-system" "graph" "mbrainz-subset" "social-news" "streets" "dilithium-crystals" "movies" "friends" "decomposing-a-query"]
+clj꞉arrival.core꞉> 
+#'arrival.core/conn
+clj꞉arrival.core꞉> 
+#'arrival.core/db
+clj꞉arrival.core꞉> 
+#'arrival.core/all-titles-q
+clj꞉arrival.core꞉> 
+[["Commando"] ["The Goonies"] ["Repo Man"]]
+clj꞉arrival.core꞉> 
+#'arrival.core/e
+clj꞉arrival.core꞉> 
+; Execution error (ClassCastException) at arrival.core/eval14751 (form-init12162807400638790579.clj:29).
+; class clojure.lang.PersistentList cannot be cast to class clojure.lang.IFn (clojure.lang.PersistentList and clojure.lang.IFn are in unnamed module of loader 'app')
+clj꞉arrival.core꞉> 
+(+ 1 2)
+clj꞉arrival.core꞉> 
+(+ 1 2)
+clj꞉arrival.core꞉> 
+#'arrival.core/yyyy
+clj꞉arrival.core꞉> 
+; Execution error (ClassCastException) at arrival.core/eval14753 (form-init12162807400638790579.clj:30).
+; class clojure.lang.PersistentList cannot be cast to class clojure.lang.IFn (clojure.lang.PersistentList and clojure.lang.IFn are in unnamed module of loader 'app')
+clj꞉arrival.core꞉> 
+(+ 1 2)
+nil
+clj꞉arrival.core꞉> 
+[1 2]
+clj꞉arrival.core꞉> 
+(1 2)
+clj꞉arrival.core꞉> 
+{1 2}
+clj꞉arrival.core꞉> 
+yyy
+clj꞉arrival.core꞉> 
+(+ 1 2)
+clj꞉arrival.core꞉> 
+(+ 1 2)
+clj꞉arrival.core꞉> 
+; Execution error (ClassCastException) at arrival.core/eval14769 (form-init12162807400638790579.clj:36).
+; class clojure.lang.PersistentList cannot be cast to class clojure.lang.IFn (clojure.lang.PersistentList and clojure.lang.IFn are in unnamed module of loader 'app')
+clj꞉arrival.core꞉> 
+(+ 1 2)
+clj꞉arrival.core꞉> 
+(+ 1 2)
+nil
+clj꞉arrival.core꞉> 
+nil
+clj꞉arrival.core꞉> 
+#'arrival.core/client
+clj꞉arrival.core꞉> 
+[]
+clj꞉arrival.core꞉> 
+[]
+clj꞉arrival.core꞉> 
+true
+clj꞉arrival.core꞉> 
+["arrival-nslobodchuk"]
+clj꞉arrival.core꞉> 
+clojure.lang.PersistentVector
+clj꞉arrival.core꞉> 
+["arrival-nslobodchuk"]
+clj꞉arrival.core꞉> 
+true
+clj꞉arrival.core꞉> 
+#'arrival.core/arrival-schema
+clj꞉arrival.core꞉> 
+#'arrival.core/sample-tickets
+clj꞉arrival.core꞉> 
+; Execution error (ExceptionInfo) at datomic.core.error/raise (error.clj:55).
+; :db.error/not-an-entity Unable to resolve entity: :arrival-nslobodchuk/title
+clj꞉arrival.core꞉> 
+{:db-before #datomic.core.db.Db{:id "movies", :basisT 7, :indexBasisT 0, :index-root-id nil, :asOfT nil, :sinceT nil, :raw nil}, :db-after #datomic.core.db.Db{:id "movies", :basisT 8, :indexBasisT 0, :index-root-id nil, :asOfT nil, :sinceT nil, :raw nil}, :tx-data [#datom[13194139533320 50 #inst "2022-06-05T11:45:13.539-00:00" 13194139533320 true] #datom[76 10 :arrival-nslobodchuk/title 13194139533320 true] #datom[76 40 23 13194139533320 true] #datom[76 41 35 13194139533320 true] #datom[76 63 "Ticket title" 13194139533320 true] #datom[77 10 :arrival-nslobodchuk/description 13194139533320 true] #datom[77 40 23 13194139533320 true] #datom[77 41 35 13194139533320 true] #datom[77 63 "Ticket description" 13194139533320 true] #datom[78 10 :arrival-nslobodchuk/client 13194139533320 true] #datom[78 40 23 13194139533320 true] #datom[78 41 35 13194139533320 true] #datom[78 63 "Client name" 13194139533320 true] #datom[79 10 :arrival-nslobodchuk/contractor 13194139533320 true] #datom[79 40 23 13194139533320 true] #datom[79 41 35 13194139533320 true] #datom[79 63 "Contractor name" 13194139533320 true] #datom[80 10 :arrival-nslobodchuk/due-date 13194139533320 true] #datom[80 40 22 13194139533320 true] #datom[80 41 35 13194139533320 true] #datom[80 63 "Due date unix timestamp" 13194139533320 true] #datom[0 13 76 13194139533320 true] #datom[0 13 77 13194139533320 true] #datom[0 13 78 13194139533320 true] #datom[0 13 79 13194139533320 true] #datom[0 13 80 13194139533320 true]], :tempids {}}
+clj꞉arrival.core꞉> 
+{:db-before #datomic.core.db.Db{:id "movies", :basisT 8, :indexBasisT 0, :index-root-id nil, :asOfT nil, :sinceT nil, :raw nil}, :db-after #datomic.core.db.Db{:id "movies", :basisT 9, :indexBasisT 0, :index-root-id nil, :asOfT nil, :sinceT nil, :raw nil}, :tx-data [#datom[13194139533321 50 #inst "2022-06-05T11:45:18.328-00:00" 13194139533321 true] #datom[79164837199953 76 "Title 1" 13194139533321 true] #datom[79164837199953 77 "Do some work" 13194139533321 true] #datom[79164837199953 78 "UPS" 13194139533321 true] #datom[79164837199953 79 "Siemens" 13194139533321 true] #datom[79164837199953 80 1685954507 13194139533321 true] #datom[79164837199954 76 "Title 2" 13194139533321 true] #datom[79164837199954 77 "Do more work" 13194139533321 true] #datom[79164837199954 78 "Amazon" 13194139533321 true] #datom[79164837199954 79 "Airbus" 13194139533321 true] #datom[79164837199954 80 1678005707 13194139533321 true]], :tempids {}}
+clj꞉arrival.core꞉> 
+; Syntax error compiling at (src/arrival/core.clj:79:1).
+; Unable to resolve symbol: all-tickets in this context
+clj꞉arrival.core꞉> 
+#'arrival.core/all-tickets
+clj꞉arrival.core꞉> 
+; Execution error (ExceptionInfo) at datomic.client.api.impl/incorrect (impl.clj:51).
+; Query args must include a database
+clj꞉arrival.core꞉> 
+#'arrival.core/db
+clj꞉arrival.core꞉> 
+; Execution error (IllegalArgumentException) at datomic.client.api.protocols/fn$G (protocols.clj:72).
+; No implementation of method: :transact of protocol: #'datomic.client.api.protocols/Connection found for class: datomic.core.db.Db
+clj꞉arrival.core꞉> 
+#'arrival.core/db
+clj꞉arrival.core꞉> 
+[["Title 2" "Do more work" "Amazon" "Airbus" 1678005707] ["Title 1" "Do some work" "UPS" "Siemens" 1685954507]]
+clj꞉arrival.core꞉> 
+nil
+clj꞉arrival.core꞉> 
+#'arrival.core/client
+clj꞉arrival.core꞉> 
+["arrival-nslobodchuk"]
+clj꞉arrival.core꞉> 
+true
+clj꞉arrival.core꞉> 
+#'arrival.core/arrival-schema
+clj꞉arrival.core꞉> 
+#'arrival.core/conn
+clj꞉arrival.core꞉> 
+{:db-before #datomic.core.db.Db{:id "arrival-nslobodchuk", :basisT 5, :indexBasisT 0, :index-root-id nil, :asOfT nil, :sinceT nil, :raw nil}, :db-after #datomic.core.db.Db{:id "arrival-nslobodchuk", :basisT 6, :indexBasisT 0, :index-root-id nil, :asOfT nil, :sinceT nil, :raw nil}, :tx-data [#datom[13194139533318 50 #inst "2022-06-05T11:53:48.198-00:00" 13194139533318 true] #datom[73 10 :arrival-nslobodchuk/title 13194139533318 true] #datom[73 40 23 13194139533318 true] #datom[73 41 35 13194139533318 true] #datom[73 63 "Ticket title" 13194139533318 true] #datom[74 10 :arrival-nslobodchuk/description 13194139533318 true] #datom[74 40 23 13194139533318 true] #datom[74 41 35 13194139533318 true] #datom[74 63 "Ticket description" 13194139533318 true] #datom[75 10 :arrival-nslobodchuk/client 13194139533318 true] #datom[75 40 23 13194139533318 true] #datom[75 41 35 13194139533318 true] #datom[75 63 "Client name" 13194139533318 true] #datom[76 10 :arrival-nslobodchuk/contractor 13194139533318 true] #datom[76 40 23 13194139533318 true] #datom[76 41 35 13194139533318 true] #datom[76 63 "Contractor name" 13194139533318 true] #datom[77 10 :arrival-nslobodchuk/due-date 13194139533318 true] #datom[77 40 22 13194139533318 true] #datom[77 41 35 13194139533318 true] #datom[77 63 "Due date unix timestamp" 13194139533318 true] #datom[0 13 73 13194139533318 true] #datom[0 13 74 13194139533318 true] #datom[0 13 75 13194139533318 true] #datom[0 13 76 13194139533318 true] #datom[0 13 77 13194139533318 true]], :tempids {}}
+clj꞉arrival.core꞉> 
+#'arrival.core/sample-tickets
+clj꞉arrival.core꞉> 
+{:db-before #datomic.core.db.Db{:id "arrival-nslobodchuk", :basisT 6, :indexBasisT 0, :index-root-id nil, :asOfT nil, :sinceT nil, :raw nil}, :db-after #datomic.core.db.Db{:id "arrival-nslobodchuk", :basisT 7, :indexBasisT 0, :index-root-id nil, :asOfT nil, :sinceT nil, :raw nil}, :tx-data [#datom[13194139533319 50 #inst "2022-06-05T11:53:54.915-00:00" 13194139533319 true] #datom[96757023244366 73 "Title 1" 13194139533319 true] #datom[96757023244366 74 "Do some work" 13194139533319 true] #datom[96757023244366 75 "UPS" 13194139533319 true] #datom[96757023244366 76 "Siemens" 13194139533319 true] #datom[96757023244366 77 1685954507 13194139533319 true] #datom[96757023244367 73 "Title 2" 13194139533319 true] #datom[96757023244367 74 "Do more work" 13194139533319 true] #datom[96757023244367 75 "Amazon" 13194139533319 true] #datom[96757023244367 76 "Airbus" 13194139533319 true] #datom[96757023244367 77 1678005707 13194139533319 true]], :tempids {}}
+clj꞉arrival.core꞉> 
+#'arrival.core/all-tickets
+clj꞉arrival.core꞉> 
+#'arrival.core/db
+clj꞉arrival.core꞉> 
+[["Title 2" "Do more work" "Amazon" "Airbus" 1678005707] ["Title 1" "Do some work" "UPS" "Siemens" 1685954507]]
+clj꞉arrival.core꞉> 
+nil
+clj꞉arrival.core꞉> 
+#'arrival.core/client
+clj꞉arrival.core꞉> 
+["arrival-nslobodchuk"]
+clj꞉arrival.core꞉> 
+true
+clj꞉arrival.core꞉> 
+#'arrival.core/conn
+clj꞉arrival.core꞉> 
+#'arrival.core/all-tickets
+clj꞉arrival.core꞉> 
+#'arrival.core/db
+clj꞉arrival.core꞉> 
+[["Title 2" "Do more work" "Amazon" "Airbus" 1678005707] ["Title 1" "Do some work" "UPS" "Siemens" 1685954507]]
+clj꞉arrival.core꞉> 
+#'arrival.core/arrival-schema
+clj꞉arrival.core꞉> 
+#'arrival.core/conn
+clj꞉arrival.core꞉> 
+{:db-before #datomic.core.db.Db{:id "arrival-nslobodchuk", :basisT 7, :indexBasisT 0, :index-root-id nil, :asOfT nil, :sinceT nil, :raw nil}, :db-after #datomic.core.db.Db{:id "arrival-nslobodchuk", :basisT 8, :indexBasisT 0, :index-root-id nil, :asOfT nil, :sinceT nil, :raw nil}, :tx-data [#datom[13194139533320 50 #inst "2022-06-05T11:55:08.088-00:00" 13194139533320 true]], :tempids {}}
+clj꞉arrival.core꞉> 
+#'arrival.core/all-tickets
+clj꞉arrival.core꞉> 
+#'arrival.core/db
+clj꞉arrival.core꞉> 
+[["Title 2" "Do more work" "Amazon" "Airbus" 1678005707] ["Title 1" "Do some work" "UPS" "Siemens" 1685954507]]
+clj꞉arrival.core꞉> 
+arrival.core
+clj꞉arrival.core꞉> 
+{arrival-schema #'arrival.core/arrival-schema, yyyy #'arrival.core/yyyy, arrival.core.proxy$java.lang.Object$SignalHandler$d8c00ec7 #'arrival.core/arrival.core.proxy$java.lang.Object$SignalHandler$d8c00ec7, tickets #'arrival.core/tickets, i #'arrival.core/i, conn #'arrival.core/conn, sample-tickets #'arrival.core/sample-tickets, all-tickets #'arrival.core/all-tickets, -main #'arrival.core/-main, db #'arrival.core/db, server #'arrival.core/server, approutes #'arrival.core/approutes, process #'arrival.core/process, client #'arrival.core/client, e #'arrival.core/e, all-titles-q #'arrival.core/all-titles-q, app #'arrival.core/app}
+clj꞉arrival.core꞉> 
+nil
+clj꞉arrival.core꞉> 
+[["Title 2" "Do more work" "Amazon" "Airbus" 1678005707] ["Title 1" "Do some work" "UPS" "Siemens" 1685954507]]
+clj꞉arrival.core꞉> 
+; nREPL Connection was closed
+; Connecting ...
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉arrival.core꞉> 
+nil
+clj꞉arrival.core꞉> 
+[["Title 2" "Do more work" "Amazon" "Airbus" 1678005707] ["Title 1" "Do some work" "UPS" "Siemens" 1685954507]]
+clj꞉arrival.core꞉> 
+nil
+clj꞉arrival.connect-db꞉> 
+#'arrival.connect-db/client
+clj꞉arrival.connect-db꞉> 
+["arrival-nslobodchuk"]
+clj꞉arrival.connect-db꞉> 
+nil
+clj꞉arrival.connect-db꞉> 
+#'arrival.connect-db/client
+clj꞉arrival.connect-db꞉> 
+#'arrival.connect-db/d-list
+clj꞉arrival.connect-db꞉> 
+false
+clj꞉arrival.connect-db꞉> 
+["arrival-nslobodchuk"]
+clj꞉arrival.connect-db꞉> 
+; Execution error (IllegalArgumentException) at arrival.connect-db/eval14803 (form-init15452779327128448983.clj:12).
+; Key must be integer
+clj꞉arrival.connect-db꞉> 
+true
+clj꞉arrival.connect-db꞉> 
+nil
+clj꞉arrival.connect-db꞉> 
+true
+clj꞉arrival.connect-db꞉> 
+; Execution error (IllegalAccessError) at arrival.core/eval14826$loading (form-init15452779327128448983.clj:1).
+; write-db does not exist
+clj꞉arrival.core꞉> 
+; Syntax error (IllegalAccessError) compiling at (arrival/write_db.clj:1:1).
+; db does not exist
+clj꞉arrival.core꞉> 
+; Syntax error (IllegalAccessError) compiling at (arrival/write_db.clj:1:1).
+; conn does not exist
+clj꞉arrival.core꞉> 
+; Execution error (IllegalAccessError) at arrival.write-db/eval14860$loading (form-init15452779327128448983.clj:1).
+; conn does not exist
+clj꞉arrival.write-db꞉> 
+nil
+clj꞉arrival.connect-db꞉> 
+#'arrival.connect-db/client
+clj꞉arrival.connect-db꞉> 
+#'arrival.connect-db/d-list
+clj꞉arrival.connect-db꞉> 
+#'arrival.connect-db/nslobodchuk-exists?
+clj꞉arrival.connect-db꞉> 
+()
+clj꞉arrival.connect-db꞉> 
+#'arrival.connect-db/conn
+clj꞉arrival.connect-db꞉> 
+#'arrival.connect-db/db
+clj꞉arrival.connect-db꞉> 
+nil
+clj꞉arrival.create-db꞉> 
+#'arrival.create-db/arrival-schema
+clj꞉arrival.create-db꞉> 
+#'arrival.create-db/sample-tickets
+clj꞉arrival.create-db꞉> 
+#'arrival.create-db/create-db
+clj꞉arrival.create-db꞉> 
+nil
+clj꞉arrival.core꞉> 
+[["Title 2" "Do more work" "Amazon" "Airbus" 1678005707] ["Title 1" "Do some work" "UPS" "Siemens" 1685954507]]
+clj꞉arrival.core꞉> 
+#'arrival.core/sample-tickets
+clj꞉arrival.core꞉> 
+#'arrival.core/sample-tickets
+clj꞉arrival.core꞉> 
+; Execution error (ExceptionInfo) at datomic.core.error/raise (error.clj:55).
+; :db.error/not-a-data-function Not a data function: :arrival-nslobodchuk/title
+clj꞉arrival.core꞉> 
+#'arrival.core/sample-tickets
+clj꞉arrival.core꞉> 
+{:db-before #datomic.core.db.Db{:id "arrival-nslobodchuk", :basisT 12, :indexBasisT 0, :index-root-id nil, :asOfT nil, :sinceT nil, :raw nil}, :db-after #datomic.core.db.Db{:id "arrival-nslobodchuk", :basisT 13, :indexBasisT 0, :index-root-id nil, :asOfT nil, :sinceT nil, :raw nil}, :tx-data [#datom[13194139533325 50 #inst "2022-06-05T14:43:24.350-00:00" 13194139533325 true] #datom[87960930222164 73 "Title 1" 13194139533325 true] #datom[87960930222164 74 "Do some work" 13194139533325 true] #datom[87960930222164 75 "UPS" 13194139533325 true] #datom[87960930222164 76 "Siemens" 13194139533325 true] #datom[87960930222164 77 1685954507 13194139533325 true]], :tempids {}}
+clj꞉arrival.core꞉> 
+[["Title 2" "Do more work" "Amazon" "Airbus" 1678005707] ["Title 1" "Do some work" "UPS" "Siemens" 1685954507]]
+clj꞉arrival.core꞉> 
+#'arrival.core/sample-tickets
+clj꞉arrival.core꞉> 
+{:db-before #datomic.core.db.Db{:id "arrival-nslobodchuk", :basisT 13, :indexBasisT 0, :index-root-id nil, :asOfT nil, :sinceT nil, :raw nil}, :db-after #datomic.core.db.Db{:id "arrival-nslobodchuk", :basisT 14, :indexBasisT 0, :index-root-id nil, :asOfT nil, :sinceT nil, :raw nil}, :tx-data [#datom[13194139533326 50 #inst "2022-06-05T14:43:43.762-00:00" 13194139533326 true] #datom[79164837199957 73 "Title 2" 13194139533326 true] #datom[79164837199957 74 "Do some work" 13194139533326 true] #datom[79164837199957 75 "UPS" 13194139533326 true] #datom[79164837199957 76 "Siemens" 13194139533326 true] #datom[79164837199957 77 1685954507 13194139533326 true]], :tempids {}}
+clj꞉arrival.core꞉> 
+[["Title 2" "Do more work" "Amazon" "Airbus" 1678005707] ["Title 1" "Do some work" "UPS" "Siemens" 1685954507]]
+clj꞉arrival.core꞉> 
+#'arrival.core/sample-tickets
+clj꞉arrival.core꞉> 
+{:db-before #datomic.core.db.Db{:id "arrival-nslobodchuk", :basisT 14, :indexBasisT 0, :index-root-id nil, :asOfT nil, :sinceT nil, :raw nil}, :db-after #datomic.core.db.Db{:id "arrival-nslobodchuk", :basisT 15, :indexBasisT 0, :index-root-id nil, :asOfT nil, :sinceT nil, :raw nil}, :tx-data [#datom[13194139533327 50 #inst "2022-06-05T14:44:19.143-00:00" 13194139533327 true] #datom[96757023244374 73 "Title 2" 13194139533327 true] #datom[96757023244374 74 "Do some worak" 13194139533327 true] #datom[96757023244374 75 "UPS" 13194139533327 true] #datom[96757023244374 76 "Siesmens" 13194139533327 true] #datom[96757023244374 77 1685954507 13194139533327 true]], :tempids {}}
+clj꞉arrival.core꞉> 
+[["Title 2" "Do more work" "Amazon" "Airbus" 1678005707] ["Title 1" "Do some work" "UPS" "Siemens" 1685954507]]
+clj꞉arrival.core꞉> 
+nil
+clj꞉arrival.read-db꞉> 
+#'arrival.read-db/all-tickets
+clj꞉arrival.read-db꞉> 
+#'arrival.read-db/db
+clj꞉arrival.read-db꞉> 
+#'arrival.read-db/read-db
+clj꞉arrival.read-db꞉> 
+nil
+clj꞉arrival.core꞉> 
+[["Title 2" "Do more work" "Amazon" "Airbus" 1678005707] ["Title 2" "Do some worak" "UPS" "Siesmens" 1685954507] ["Title 2" "Do some work" "UPS" "Siemens" 1685954507] ["Title 1" "Do some work" "UPS" "Siemens" 1685954507]]
+clj꞉arrival.core꞉> 
+#'arrival.read-db/all-tickets
+clj꞉arrival.read-db꞉> 
+#'arrival.read-db/db
+clj꞉arrival.read-db꞉> 
+#'arrival.read-db/read-db
+clj꞉arrival.read-db꞉> 
+nil
+clj꞉arrival.core꞉> 
+[["Title 2" "Do more work" "Amazon" "Siemens" 1678005707] ["Title 2" "Do some worak" "UPS" "Siemens" 1685954507] ["Title 2" "Do some worak" "UPS" "Airbus" 1685954507] ["Title 2" "Do some work" "UPS" "Siesmens" 1685954507] ["Title 2" "Do more work" "Amazon" "Siesmens" 1678005707] ["Title 2" "Do more work" "Amazon" "Airbus" 1678005707] ["Title 2" "Do some work" "UPS" "Airbus" 1685954507] ["Title 2" "Do some worak" "UPS" "Siesmens" 1685954507] ["Title 1" "Do some work" "UPS" "Airbus" 1685954507] ["Title 2" "Do some work" "UPS" "Siemens" 1685954507] ["Title 1" "Do some work" "UPS" "Siesmens" 1685954507] ["Title 1" "Do some work" "UPS" "Siemens" 1685954507]]
+clj꞉arrival.core꞉> 
+nil
+clj꞉arrival.read-db꞉> 
+#'arrival.read-db/all-tickets
+clj꞉arrival.read-db꞉> 
+#'arrival.read-db/db
+clj꞉arrival.read-db꞉> 
+#'arrival.read-db/read-db
+clj꞉arrival.read-db꞉> 
+nil
+clj꞉arrival.core꞉> 
+[["Title 2" "Do more work" "Amazon" "Airbus" 1678005707] ["Title 2" "Do some worak" "UPS" "Siesmens" 1685954507] ["Title 2" "Do some work" "UPS" "Siemens" 1685954507] ["Title 1" "Do some work" "UPS" "Siemens" 1685954507]]
+clj꞉arrival.core꞉> 
+#'arrival.core/sample-tickets
+clj꞉arrival.core꞉> 
+{:db-before #datomic.core.db.Db{:id "arrival-nslobodchuk", :basisT 15, :indexBasisT 0, :index-root-id nil, :asOfT nil, :sinceT nil, :raw nil}, :db-after #datomic.core.db.Db{:id "arrival-nslobodchuk", :basisT 16, :indexBasisT 0, :index-root-id nil, :asOfT nil, :sinceT nil, :raw nil}, :tx-data [#datom[13194139533328 50 #inst "2022-06-05T14:47:34.496-00:00" 13194139533328 true] #datom[74766790688855 73 "Title 2" 13194139533328 true] #datom[74766790688855 74 "Do some worak" 13194139533328 true] #datom[74766790688855 75 "UPS" 13194139533328 true] #datom[74766790688855 76 "Siesmens" 13194139533328 true] #datom[74766790688855 77 1685954507 13194139533328 true]], :tempids {}}
+clj꞉arrival.core꞉> 
+{:db-before #datomic.core.db.Db{:id "arrival-nslobodchuk", :basisT 16, :indexBasisT 0, :index-root-id nil, :asOfT nil, :sinceT nil, :raw nil}, :db-after #datomic.core.db.Db{:id "arrival-nslobodchuk", :basisT 17, :indexBasisT 0, :index-root-id nil, :asOfT nil, :sinceT nil, :raw nil}, :tx-data [#datom[13194139533329 50 #inst "2022-06-05T14:47:34.864-00:00" 13194139533329 true] #datom[96757023244376 73 "Title 2" 13194139533329 true] #datom[96757023244376 74 "Do some worak" 13194139533329 true] #datom[96757023244376 75 "UPS" 13194139533329 true] #datom[96757023244376 76 "Siesmens" 13194139533329 true] #datom[96757023244376 77 1685954507 13194139533329 true]], :tempids {}}
+clj꞉arrival.core꞉> 
+{:db-before #datomic.core.db.Db{:id "arrival-nslobodchuk", :basisT 17, :indexBasisT 0, :index-root-id nil, :asOfT nil, :sinceT nil, :raw nil}, :db-after #datomic.core.db.Db{:id "arrival-nslobodchuk", :basisT 18, :indexBasisT 0, :index-root-id nil, :asOfT nil, :sinceT nil, :raw nil}, :tx-data [#datom[13194139533330 50 #inst "2022-06-05T14:47:35.298-00:00" 13194139533330 true] #datom[74766790688857 73 "Title 2" 13194139533330 true] #datom[74766790688857 74 "Do some worak" 13194139533330 true] #datom[74766790688857 75 "UPS" 13194139533330 true] #datom[74766790688857 76 "Siesmens" 13194139533330 true] #datom[74766790688857 77 1685954507 13194139533330 true]], :tempids {}}
+clj꞉arrival.core꞉> 
+{:db-before #datomic.core.db.Db{:id "arrival-nslobodchuk", :basisT 18, :indexBasisT 0, :index-root-id nil, :asOfT nil, :sinceT nil, :raw nil}, :db-after #datomic.core.db.Db{:id "arrival-nslobodchuk", :basisT 19, :indexBasisT 0, :index-root-id nil, :asOfT nil, :sinceT nil, :raw nil}, :tx-data [#datom[13194139533331 50 #inst "2022-06-05T14:47:35.521-00:00" 13194139533331 true] #datom[87960930222170 73 "Title 2" 13194139533331 true] #datom[87960930222170 74 "Do some worak" 13194139533331 true] #datom[87960930222170 75 "UPS" 13194139533331 true] #datom[87960930222170 76 "Siesmens" 13194139533331 true] #datom[87960930222170 77 1685954507 13194139533331 true]], :tempids {}}
+clj꞉arrival.core꞉> 
+{:db-before #datomic.core.db.Db{:id "arrival-nslobodchuk", :basisT 19, :indexBasisT 0, :index-root-id nil, :asOfT nil, :sinceT nil, :raw nil}, :db-after #datomic.core.db.Db{:id "arrival-nslobodchuk", :basisT 20, :indexBasisT 0, :index-root-id nil, :asOfT nil, :sinceT nil, :raw nil}, :tx-data [#datom[13194139533332 50 #inst "2022-06-05T14:47:35.661-00:00" 13194139533332 true] #datom[87960930222171 73 "Title 2" 13194139533332 true] #datom[87960930222171 74 "Do some worak" 13194139533332 true] #datom[87960930222171 75 "UPS" 13194139533332 true] #datom[87960930222171 76 "Siesmens" 13194139533332 true] #datom[87960930222171 77 1685954507 13194139533332 true]], :tempids {}}
+clj꞉arrival.core꞉> 
+{:db-before #datomic.core.db.Db{:id "arrival-nslobodchuk", :basisT 20, :indexBasisT 0, :index-root-id nil, :asOfT nil, :sinceT nil, :raw nil}, :db-after #datomic.core.db.Db{:id "arrival-nslobodchuk", :basisT 21, :indexBasisT 0, :index-root-id nil, :asOfT nil, :sinceT nil, :raw nil}, :tx-data [#datom[13194139533333 50 #inst "2022-06-05T14:47:35.788-00:00" 13194139533333 true] #datom[83562883711068 73 "Title 2" 13194139533333 true] #datom[83562883711068 74 "Do some worak" 13194139533333 true] #datom[83562883711068 75 "UPS" 13194139533333 true] #datom[83562883711068 76 "Siesmens" 13194139533333 true] #datom[83562883711068 77 1685954507 13194139533333 true]], :tempids {}}
+clj꞉arrival.core꞉> 
+{:db-before #datomic.core.db.Db{:id "arrival-nslobodchuk", :basisT 21, :indexBasisT 0, :index-root-id nil, :asOfT nil, :sinceT nil, :raw nil}, :db-after #datomic.core.db.Db{:id "arrival-nslobodchuk", :basisT 22, :indexBasisT 0, :index-root-id nil, :asOfT nil, :sinceT nil, :raw nil}, :tx-data [#datom[13194139533334 50 #inst "2022-06-05T14:47:35.889-00:00" 13194139533334 true] #datom[74766790688861 73 "Title 2" 13194139533334 true] #datom[74766790688861 74 "Do some worak" 13194139533334 true] #datom[74766790688861 75 "UPS" 13194139533334 true] #datom[74766790688861 76 "Siesmens" 13194139533334 true] #datom[74766790688861 77 1685954507 13194139533334 true]], :tempids {}}
+clj꞉arrival.core꞉> 
+{:db-before #datomic.core.db.Db{:id "arrival-nslobodchuk", :basisT 22, :indexBasisT 0, :index-root-id nil, :asOfT nil, :sinceT nil, :raw nil}, :db-after #datomic.core.db.Db{:id "arrival-nslobodchuk", :basisT 23, :indexBasisT 0, :index-root-id nil, :asOfT nil, :sinceT nil, :raw nil}, :tx-data [#datom[13194139533335 50 #inst "2022-06-05T14:47:36.025-00:00" 13194139533335 true] #datom[96757023244382 73 "Title 2" 13194139533335 true] #datom[96757023244382 74 "Do some worak" 13194139533335 true] #datom[96757023244382 75 "UPS" 13194139533335 true] #datom[96757023244382 76 "Siesmens" 13194139533335 true] #datom[96757023244382 77 1685954507 13194139533335 true]], :tempids {}}
+clj꞉arrival.core꞉> 
+{:db-before #datomic.core.db.Db{:id "arrival-nslobodchuk", :basisT 23, :indexBasisT 0, :index-root-id nil, :asOfT nil, :sinceT nil, :raw nil}, :db-after #datomic.core.db.Db{:id "arrival-nslobodchuk", :basisT 24, :indexBasisT 0, :index-root-id nil, :asOfT nil, :sinceT nil, :raw nil}, :tx-data [#datom[13194139533336 50 #inst "2022-06-05T14:47:36.118-00:00" 13194139533336 true] #datom[96757023244383 73 "Title 2" 13194139533336 true] #datom[96757023244383 74 "Do some worak" 13194139533336 true] #datom[96757023244383 75 "UPS" 13194139533336 true] #datom[96757023244383 76 "Siesmens" 13194139533336 true] #datom[96757023244383 77 1685954507 13194139533336 true]], :tempids {}}
+clj꞉arrival.core꞉> 
+{:db-before #datomic.core.db.Db{:id "arrival-nslobodchuk", :basisT 24, :indexBasisT 0, :index-root-id nil, :asOfT nil, :sinceT nil, :raw nil}, :db-after #datomic.core.db.Db{:id "arrival-nslobodchuk", :basisT 25, :indexBasisT 0, :index-root-id nil, :asOfT nil, :sinceT nil, :raw nil}, :tx-data [#datom[13194139533337 50 #inst "2022-06-05T14:47:36.255-00:00" 13194139533337 true] #datom[92358976733280 73 "Title 2" 13194139533337 true] #datom[92358976733280 74 "Do some worak" 13194139533337 true] #datom[92358976733280 75 "UPS" 13194139533337 true] #datom[92358976733280 76 "Siesmens" 13194139533337 true] #datom[92358976733280 77 1685954507 13194139533337 true]], :tempids {}}
+clj꞉arrival.core꞉> 
+[["Title 2" "Do more work" "Amazon" "Airbus" 1678005707] ["Title 2" "Do some worak" "UPS" "Siesmens" 1685954507] ["Title 2" "Do some work" "UPS" "Siemens" 1685954507] ["Title 1" "Do some work" "UPS" "Siemens" 1685954507]]
+clj꞉arrival.core꞉> 
+#'arrival.core/sample-tickets
+clj꞉arrival.core꞉> 
+{:db-before #datomic.core.db.Db{:id "arrival-nslobodchuk", :basisT 25, :indexBasisT 0, :index-root-id nil, :asOfT nil, :sinceT nil, :raw nil}, :db-after #datomic.core.db.Db{:id "arrival-nslobodchuk", :basisT 26, :indexBasisT 0, :index-root-id nil, :asOfT nil, :sinceT nil, :raw nil}, :tx-data [#datom[13194139533338 50 #inst "2022-06-05T14:47:53.783-00:00" 13194139533338 true] #datom[96757023244385 73 "Title 5" 13194139533338 true] #datom[96757023244385 74 "Do some worak" 13194139533338 true] #datom[96757023244385 75 "UPS" 13194139533338 true] #datom[96757023244385 76 "Siesmens" 13194139533338 true] #datom[96757023244385 77 1685954507 13194139533338 true]], :tempids {}}
+clj꞉arrival.core꞉> 
+[["Title 2" "Do more work" "Amazon" "Airbus" 1678005707] ["Title 2" "Do some worak" "UPS" "Siesmens" 1685954507] ["Title 2" "Do some work" "UPS" "Siemens" 1685954507] ["Title 1" "Do some work" "UPS" "Siemens" 1685954507]]
+clj꞉arrival.core꞉> 
+nil
+clj꞉arrival.core꞉> 
+[["Title 2" "Do more work" "Amazon" "Airbus" 1678005707] ["Title 2" "Do some worak" "UPS" "Siesmens" 1685954507] ["Title 2" "Do some work" "UPS" "Siemens" 1685954507] ["Title 1" "Do some work" "UPS" "Siemens" 1685954507]]
+clj꞉arrival.core꞉> 
+nil
+clj꞉arrival.read-db꞉> 
+#'arrival.read-db/all-tickets
+clj꞉arrival.read-db꞉> 
+#'arrival.read-db/read-db
+clj꞉arrival.read-db꞉> 
+nil
+clj꞉arrival.core꞉> 
+[["Title 2" "Do more work" "Amazon" "Airbus" 1678005707] ["Title 2" "Do some worak" "UPS" "Siesmens" 1685954507] ["Title 2" "Do some work" "UPS" "Siemens" 1685954507] ["Title 5" "Do some worak" "UPS" "Siesmens" 1685954507] ["Title 1" "Do some work" "UPS" "Siemens" 1685954507]]
+clj꞉arrival.core꞉> 
+#'arrival.core/sample-tickets
+clj꞉arrival.core꞉> 
+{:db-before #datomic.core.db.Db{:id "arrival-nslobodchuk", :basisT 26, :indexBasisT 0, :index-root-id nil, :asOfT nil, :sinceT nil, :raw nil}, :db-after #datomic.core.db.Db{:id "arrival-nslobodchuk", :basisT 27, :indexBasisT 0, :index-root-id nil, :asOfT nil, :sinceT nil, :raw nil}, :tx-data [#datom[13194139533339 50 #inst "2022-06-05T14:50:14.556-00:00" 13194139533339 true] #datom[92358976733282 73 "Title 5" 13194139533339 true] #datom[92358976733282 74 "Do some worak" 13194139533339 true] #datom[92358976733282 75 "UPS" 13194139533339 true] #datom[92358976733282 76 "Siesmens" 13194139533339 true] #datom[92358976733282 77 1685954507 13194139533339 true]], :tempids {}}
+clj꞉arrival.core꞉> 
+[["Title 2" "Do more work" "Amazon" "Airbus" 1678005707] ["Title 2" "Do some worak" "UPS" "Siesmens" 1685954507] ["Title 2" "Do some work" "UPS" "Siemens" 1685954507] ["Title 5" "Do some worak" "UPS" "Siesmens" 1685954507] ["Title 1" "Do some work" "UPS" "Siemens" 1685954507]]
+clj꞉arrival.core꞉> 
+#'arrival.core/sample-tickets
+clj꞉arrival.core꞉> 
+{:db-before #datomic.core.db.Db{:id "arrival-nslobodchuk", :basisT 27, :indexBasisT 0, :index-root-id nil, :asOfT nil, :sinceT nil, :raw nil}, :db-after #datomic.core.db.Db{:id "arrival-nslobodchuk", :basisT 28, :indexBasisT 0, :index-root-id nil, :asOfT nil, :sinceT nil, :raw nil}, :tx-data [#datom[13194139533340 50 #inst "2022-06-05T14:50:31.944-00:00" 13194139533340 true] #datom[79164837199971 73 "Title 6" 13194139533340 true] #datom[79164837199971 74 "Do some worak" 13194139533340 true] #datom[79164837199971 75 "UPS" 13194139533340 true] #datom[79164837199971 76 "Siesmens" 13194139533340 true] #datom[79164837199971 77 1685954507 13194139533340 true]], :tempids {}}
+clj꞉arrival.core꞉> 
+[["Title 2" "Do more work" "Amazon" "Airbus" 1678005707] ["Title 2" "Do some worak" "UPS" "Siesmens" 1685954507] ["Title 2" "Do some work" "UPS" "Siemens" 1685954507] ["Title 5" "Do some worak" "UPS" "Siesmens" 1685954507] ["Title 1" "Do some work" "UPS" "Siemens" 1685954507] ["Title 6" "Do some worak" "UPS" "Siesmens" 1685954507]]
+clj꞉arrival.core꞉> 
+{:db-before #datomic.core.db.Db{:id "arrival-nslobodchuk", :basisT 28, :indexBasisT 0, :index-root-id nil, :asOfT nil, :sinceT nil, :raw nil}, :db-after #datomic.core.db.Db{:id "arrival-nslobodchuk", :basisT 29, :indexBasisT 0, :index-root-id nil, :asOfT nil, :sinceT nil, :raw nil}, :tx-data [#datom[13194139533341 50 #inst "2022-06-05T14:50:42.914-00:00" 13194139533341 true] #datom[92358976733284 73 "Title 6" 13194139533341 true] #datom[92358976733284 74 "Do some worak" 13194139533341 true] #datom[92358976733284 75 "UPS" 13194139533341 true] #datom[92358976733284 76 "Siesmens" 13194139533341 true] #datom[92358976733284 77 1685954507 13194139533341 true]], :tempids {}}
+clj꞉arrival.core꞉> 
+{:db-before #datomic.core.db.Db{:id "arrival-nslobodchuk", :basisT 29, :indexBasisT 0, :index-root-id nil, :asOfT nil, :sinceT nil, :raw nil}, :db-after #datomic.core.db.Db{:id "arrival-nslobodchuk", :basisT 30, :indexBasisT 0, :index-root-id nil, :asOfT nil, :sinceT nil, :raw nil}, :tx-data [#datom[13194139533342 50 #inst "2022-06-05T14:50:43.932-00:00" 13194139533342 true] #datom[101155069755493 73 "Title 6" 13194139533342 true] #datom[101155069755493 74 "Do some worak" 13194139533342 true] #datom[101155069755493 75 "UPS" 13194139533342 true] #datom[101155069755493 76 "Siesmens" 13194139533342 true] #datom[101155069755493 77 1685954507 13194139533342 true]], :tempids {}}
+clj꞉arrival.core꞉> 
+{:db-before #datomic.core.db.Db{:id "arrival-nslobodchuk", :basisT 30, :indexBasisT 0, :index-root-id nil, :asOfT nil, :sinceT nil, :raw nil}, :db-after #datomic.core.db.Db{:id "arrival-nslobodchuk", :basisT 31, :indexBasisT 0, :index-root-id nil, :asOfT nil, :sinceT nil, :raw nil}, :tx-data [#datom[13194139533343 50 #inst "2022-06-05T14:50:44.492-00:00" 13194139533343 true] #datom[74766790688870 73 "Title 6" 13194139533343 true] #datom[74766790688870 74 "Do some worak" 13194139533343 true] #datom[74766790688870 75 "UPS" 13194139533343 true] #datom[74766790688870 76 "Siesmens" 13194139533343 true] #datom[74766790688870 77 1685954507 13194139533343 true]], :tempids {}}
+clj꞉arrival.core꞉> 
+[["Title 2" "Do more work" "Amazon" "Airbus" 1678005707] ["Title 2" "Do some worak" "UPS" "Siesmens" 1685954507] ["Title 5" "Do some worak" "UPS" "Siesmens" 1685954507] ["Title 2" "Do some work" "UPS" "Siemens" 1685954507] ["Title 6" "Do some worak" "UPS" "Siesmens" 1685954507] ["Title 1" "Do some work" "UPS" "Siemens" 1685954507]]
+clj꞉arrival.core꞉> 
+; nREPL Connection was closed
+; Connecting ...
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉arrival.core꞉> 
+nil
+clj꞉arrival.connect-db꞉> 
+#'arrival.connect-db/client
+clj꞉arrival.connect-db꞉> 
+true
+clj꞉arrival.connect-db꞉> 
+#'arrival.connect-db/d-list
+clj꞉arrival.connect-db꞉> 
+#'arrival.connect-db/nslobodchuk-exists?
+clj꞉arrival.connect-db꞉> 
+nil
+clj꞉arrival.connect-db꞉> 
+true
+clj꞉arrival.connect-db꞉> 
+true
+clj꞉arrival.connect-db꞉> 
+false
+clj꞉arrival.connect-db꞉> 
+true
+clj꞉arrival.connect-db꞉> 
+; nREPL Connection was closed
+; Connecting ...
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉arrival.core꞉> 
+nil
+clj꞉arrival.connect-db꞉> 
+#'arrival.connect-db/client
+clj꞉arrival.connect-db꞉> 
+#'arrival.connect-db/d-list
+clj꞉arrival.connect-db꞉> 
+#'arrival.connect-db/nslobodchuk-exists?
+clj꞉arrival.connect-db꞉> 
+()
+clj꞉arrival.connect-db꞉> 
+; Execution error (IOException) at datomic.core.io.file-channels/lock! (file_channels.clj:35).
+; File /Users/nslobodchuk/Projects/lein-projects/datomic-data/dev/arrival-nslobodchuk/.lock is in use by another process.
+clj꞉arrival.connect-db꞉> 
+nil
+clj꞉arrival.read-db꞉> 
+#'arrival.read-db/all-tickets
+clj꞉arrival.read-db꞉> 
+#'arrival.read-db/read-db
+clj꞉arrival.read-db꞉> 
+; Execution error (IllegalArgumentException) at datomic.client.api.protocols/fn$G (protocols.clj:72).
+; No implementation of method: :db of protocol: #'datomic.client.api.protocols/Connection found for class: clojure.lang.Var$Unbound
+clj꞉arrival.read-db꞉> 
+#'arrival.read-db/all-tickets
+clj꞉arrival.read-db꞉> 
+#'arrival.read-db/read-db
+clj꞉arrival.read-db꞉> 
+; Execution error (IllegalArgumentException) at datomic.client.api.protocols/fn$G (protocols.clj:72).
+; No implementation of method: :db of protocol: #'datomic.client.api.protocols/Connection found for class: clojure.lang.Var$Unbound
+clj꞉arrival.read-db꞉> 
+nil
+clj꞉arrival.read-db꞉> 
+#'arrival.read-db/all-tickets
+clj꞉arrival.read-db꞉> 
+#'arrival.read-db/read-db
+clj꞉arrival.read-db꞉> 
+; Execution error (IllegalArgumentException) at datomic.client.api.protocols/fn$G (protocols.clj:72).
+; No implementation of method: :db of protocol: #'datomic.client.api.protocols/Connection found for class: clojure.lang.Var$Unbound
+clj꞉arrival.read-db꞉> 
+; Execution error (IOException) at datomic.core.io.file-channels/lock! (file_channels.clj:35).
+; File /Users/nslobodchuk/Projects/lein-projects/datomic-data/dev/arrival-nslobodchuk/.lock is in use by another process.
+clj꞉arrival.connect-db꞉> 
+nil
+clj꞉arrival.connect-db꞉> 
+#'arrival.connect-db/client
+clj꞉arrival.connect-db꞉> 
+#'arrival.connect-db/d-list
+clj꞉arrival.connect-db꞉> 
+#'arrival.connect-db/nslobodchuk-exists?
+clj꞉arrival.connect-db꞉> 
+()
+clj꞉arrival.connect-db꞉> 
+; Execution error (IOException) at datomic.core.io.file-channels/lock! (file_channels.clj:35).
+; File /Users/nslobodchuk/Projects/lein-projects/datomic-data/dev/arrival-nslobodchuk/.lock is in use by another process.
+clj꞉arrival.connect-db꞉> 
+#'arrival.connect-db/conn
+clj꞉arrival.connect-db꞉> 
+[["eferffr" "Do some worak" "UPS" "Siesmens" 1685954507] ["Title 2" "Do more work" "Amazon" "Airbus" 1678005707] ["Title 6" "Do some worak" "UPS" "Siesmens" 1685954507] ["Title 1" "Do some work" "UPS" "Siemens" 1685954507]]
+clj꞉arrival.read-db꞉> 
+#'arrival.read-db/all-tickets
+clj꞉arrival.read-db꞉> 
+#'arrival.read-db/read-db
+clj꞉arrival.read-db꞉> 
+[[74766790688847 "Title 2" "Do more work" "Amazon" "Airbus" 1678005707] [87960930222162 "eferffr" "Do some worak" "UPS" "Siesmens" 1685954507] [83562883711057 "Title 6" "Do some worak" "UPS" "Siesmens" 1685954507] [74766790688846 "Title 1" "Do some work" "UPS" "Siemens" 1685954507] [101155069755478 "Title 6" "Do some worak" "UPS" "Siesmens" 1685954507] [74766790688851 "Title 6" "Do some worak" "UPS" "Siesmens" 1685954507] [74766790688853 "Title 6" "Do some worak" "UPS" "Siesmens" 1685954507] [79164837199952 "Title 6" "Do some worak" "UPS" "Siesmens" 1685954507] [96757023244372 "Title 6" "Do some worak" "UPS" "Siesmens" 1685954507]]
+clj꞉arrival.read-db꞉> 
+; nREPL Connection was closed
+; Connecting ...
+; No nrepl port file found.
+; Connecting ...
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉arrival.core꞉> 
+nil
+clj꞉arrival.connect-db꞉> 
+#'arrival.connect-db/client
+clj꞉arrival.connect-db꞉> 
+true
+clj꞉arrival.connect-db꞉> 
+; nREPL Connection was closed
+; Connecting ...
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉arrival.core꞉> 
+nil
+clj꞉arrival.connect-db꞉> 
+#'arrival.connect-db/client
+clj꞉arrival.connect-db꞉> 
+true
+clj꞉arrival.connect-db꞉> 
+; nREPL Connection was closed

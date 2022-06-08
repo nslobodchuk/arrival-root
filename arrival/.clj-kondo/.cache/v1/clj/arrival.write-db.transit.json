@@ -1,0 +1,1 @@
+["^ ","~$write-db",["^ ","~:row",6,"~:col",1,"~:fixed-arities",["~#set",[1]],"~:name","^0","~:ns","~$arrival.write-db","~:top-ns","^7"],"~:filename","/Users/nslobodchuk/Projects/lein-projects/arrival/src/arrival/write_db.clj"]

@@ -1,0 +1,1 @@
+["^ ","~$arrival-schema",["^ ","~:row",4,"~:col",1,"~:name","^0","~:ns","~$arrival.create-db","~:top-ns","^5"],"~$sample-tickets",["^ ","^1",30,"^2",1,"^3","^7","^4","^5","^6","^5"],"~$create-db",["^ ","^1",42,"^2",1,"~:fixed-arities",["~#set",[1]],"^3","^8","^4","^5","^6","^5"],"~:filename","/Users/nslobodchuk/Projects/lein-projects/arrival/src/arrival/create_db.clj"]
