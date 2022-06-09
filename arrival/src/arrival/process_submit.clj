@@ -1,15 +1,15 @@
 (ns arrival.process-submit
-    (:require [clojure.data.json :as json]
-              [arrival.write-db :refer [write-db]]
-              [clojure.core.async :as a
-               :refer [<! >!! go chan  thread]]))
+  (:require [clojure.data.json :as json]
+            [arrival.write-db :refer [write-db]]
+            [clojure.core.async :as a
+             :refer [<! >!! go chan  thread]]))
 
 
-(defn process-submit 
+(defn process-submit
   "This is a handler function for a POST HTTP request to '/testapp/api/submit'. 
    The POST HTTP request needs to contain the stringified JSON of a new Ticket.
    The ticket is stored into the Datomic database."
-  
+
   [request respond raise]
 
   (go
@@ -25,7 +25,4 @@
         (>!! c "Success"))
 
       (<! c)
-      (respond (json/write-str sample-tickets)))
-    )
-  
-  )
+      (respond (json/write-str sample-tickets)))))

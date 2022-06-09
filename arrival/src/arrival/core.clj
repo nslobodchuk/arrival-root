@@ -10,7 +10,8 @@
             [compojure.core :refer [defroutes GET POST]]
             [arrival.read-db :refer [read-db]]
             [arrival.process-submit :refer [process-submit]]
-            ))
+            [arrival.connect-db :refer [connect-db]]
+            [arrival.app-state :refer [app-state]]))
 
 (defroutes approutes
 
@@ -21,8 +22,7 @@
   (GET "/testapp/*" []
     (resource-response "build/index.html"))
   (GET "/testapp" []
-    (resource-response "build/index.html"))
-  )
+    (resource-response "build/index.html")))
 
 (def app (wrap-resource approutes "build"))
 
@@ -30,8 +30,10 @@
   (run-jetty app {:join? false
                   :port 8080
                   :async? true
-                  :async-timeout 30000
-                  }))
+                  :async-timeout 30000}))
+
 
 (defn -main [& args]
+
+  (swap! app-state #(assoc % :db-conn (connect-db)))
   (server))

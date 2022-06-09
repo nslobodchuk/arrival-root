@@ -39,16 +39,14 @@
                       :arrival-nslobodchuk/due-date 1678005707}])
 
 
-(defn create-db 
+(defn create-db
   "This is a utility function to create the database if it doesn't exist."
-  
+
   [client]
   (d/create-database client {:db-name "arrival-nslobodchuk"})
   (let [conn (d/connect client {:db-name "arrival-nslobodchuk"})]
     (d/transact conn {:tx-data arrival-schema})
-    (d/transact conn {:tx-data sample-tickets})
-    )
-)
+    (d/transact conn {:tx-data sample-tickets})))
 
 
 
